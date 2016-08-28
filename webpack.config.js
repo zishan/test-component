@@ -9,6 +9,7 @@ module.exports = {
     new webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery',
+      React: 'react',
     }),
   ],
   entry: {
@@ -21,8 +22,8 @@ module.exports = {
     libraryTarget: 'var',
   },
   externals: {
-    'react': 'react',
-    'react-dom' : 'react-dom',
+    'react': 'React',
+    'react-dom' : 'ReactDOM',
   },
   module: {
     loaders: [
