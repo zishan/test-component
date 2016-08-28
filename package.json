@@ -4,14 +4,15 @@
   "description": "",
   "main": "component.js",
   "scripts": {
+    "start": "webpack-dev-server --watch --hot --inline --history-api-fallback --progress --colors",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.prod.env.teladoc.com:zahmad/test-component.git"
+    "url": "git@github.com:zishan/test-component.git"
   },
-  "author": "Zishan Ahmad <zahmad@teladoc.com>",
+  "author": "Zishan Ahmad <me@zishanahmad.com>",
   "license": "ISC",
   "devDependencies": {
     "webpack": "^1.13.1",

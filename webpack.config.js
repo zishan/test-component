@@ -21,18 +21,11 @@ module.exports = {
     libraryTarget: 'var',
   },
   externals: {
-    'react': 'commonjs react',
-    'react-dom' : 'commonjs react-dom',
+    'react': 'react',
+    'react-dom' : 'react-dom',
   },
   module: {
     loaders: [
-      {
-        test: /\.css$/,
-        loaders: [
-          'style',
-          'css',
-        ],
-      },
       {
         test: /\.js?$/,
         exclude: /(node_modules)/,

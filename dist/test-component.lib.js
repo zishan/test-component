@@ -94,7 +94,7 @@ var TestComponent =
 /* 1 */
 /***/ function(module, exports) {
 
-	module.exports = require("react");
+	module.exports = react;
 
 /***/ }
 /******/ ]);
